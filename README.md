@@ -1,2 +1,2 @@
-# TastyRecipies2
-The website files for ID1354 seminar 2
+# TastyRecipies
+The website files for seminar 2 - 4 in the course ID1354.
