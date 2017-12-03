@@ -34,8 +34,6 @@ if(isset($_POST['log_in'])){
     }
     //login between pages
 } elseif (isset($_SESSION["username"])) {
-    //echo "." . $controller->getUsername();
-    //$controller->setUsername($_SESSION["username"]);
     include TASTY_RECIPES_FRAGMENTS . 'loggedIn.php';
     $logged_in = TRUE;
 } 
