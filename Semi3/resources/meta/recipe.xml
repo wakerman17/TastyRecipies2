@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<cookbook xmlns="http://www.mycookbook-android.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mycookbook-android.com recipe.xsd">
+
+	<recipe>
+		<title>Meatballs</title>
+		<preptime>15 min</preptime>
+		<cooktime>5 min</cooktime>
+		<totaltime>20 min</totaltime>
+		<description>
+			<li>Do you like meatballs?</li>
+			<li>Then try this recipe</li>
+		</description>
+		<ingredient>
+			<li>500 g Minced meat</li>
+			<li>1 dl Breadcrumbs</li>
+			<li>1 dl Cream</li>
+			<li>30 ml Finely chopped onion</li>
+			<li>1 Egg</li>
+			<li>5 ml Salt</li>
+			<li>1 ml Black pepper</li>
+			<li>30 ml Butter- and rapeseed oil</li>
+		</ingredient>
+		<recipetext>
+			<li>Mix bread and cream.</li>
+			<li>Let swell 10 min.</li>
+			<li>Add the fries, onions, eggs, salt and pepper.</li>
+			<li>Stir to a smooth smear.</li>
+			<li>Form the batter to even buns.</li>
+			<li>Fry them in butter- and rapeseed oil on medium for 5 minutes.
+			</li>
+		</recipetext>
+		<url></url>
+		<video></video>
+		<quantity>4</quantity>
+		<imagepath></imagepath>
+		<imageurl></imageurl>
+		<comments></comments>
+		<source></source>
+		<nutrition>
+			<li>Total Fat 9 g</li>
+			<li>Cholesterol 0 mg</li>
+			<li>Sodium 550 mg</li>
+			<li>Potassium 180 mg</li>
+			<li>Total Carbohydrate 8 g</li>
+			<li>Protein 21 g</li>
+		</nutrition>
+		<rating>5</rating>
+		<category>Lunch</category>
+	</recipe>
+
+	<recipe>
+		<title>Pancakes</title>
+		<preptime>10 min</preptime>
+		<cooktime>20 min</cooktime>
+		<totaltime>30 min</totaltime>
+		<ingredient>
+			<li>3 dl Flour</li>
+			<li>3 ml Salt</li>
+			<li>6 dl Milk</li>
+			<li>3 Eggs</li>
+			<li>45 ml Butter</li>
+		</ingredient>
+		<recipetext>
+			<li>Mix flour and salt in a bowl.</li>
+			<li>Take in half of the milk and whisk to a smooth batter.</li>
+			<li>Take in the rest of the milk and the eggs. </li>
+			<li>Melt the butter in the frying pan and whisk into the batter.</li>
+			<li>Stir thin pancakes of the batter in a frying pan or pancake pan.
+			</li>
+		</recipetext>
+		<url></url>
+		<quantity>4</quantity>
+		<imagepath></imagepath>
+		<imageurl></imageurl>
+		<comments></comments>
+		<source></source>
+		<video></video>
+		<nutrition>
+			<li>Total Fat 10 g</li>
+			<li>Cholesterol 59 mg</li>
+			<li>Sodium 439 mg</li>
+			<li>Potassium 132 mg</li>
+			<li>Total Carbohydrate 28 g</li>
+			<li>Protein 6 g</li>
+		</nutrition>
+		<rating></rating>
+		<category>All meals meal</category>
+	</recipe>
+
+</cookbook>

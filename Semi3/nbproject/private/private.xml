@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/pancakes.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/resources/fragments/recipeAsideRight.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/resources/views/pancakesView.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/classes/TastyRecipes/Integration/UserHandler.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/submitComment.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/register.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/resources/fragments/header.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/resources/fragments/init.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/resources/fragments/footer.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/resources/fragments/loginForm.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/classes/TastyRecipes/Model/Cacher.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/classes/TastyRecipes/Controller/Controller.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/classes/TastyRecipes/Controller/SessionManager.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/classes/TastyRecipes/Model/User.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/deleteComment.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/calendar.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/resources/views/registerView.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/resources/fragments/loggedIn.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/resources/views/homeView.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/logOut.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/resources/fragments/recipeInformation.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/resources/views/meatballsView.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/formValidation.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/classes/TastyRecipes/Util/Startup.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/resources/fragments/css.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/classes/TastyRecipes/Model/Comment.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/resources/fragments/mainAsideLeft.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/classes/TastyRecipes/Integration/CommentHandler.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/registerProcess.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/login.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/resources/fragments/mainAsideRight.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/home.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/readComment.php</file>
+            <file>file:/D:/HTMLprogram/ID1354/UniServerZ/www/Semi3/meatballs.php</file>
+        </group>
+    </open-files>
+</project-private>
