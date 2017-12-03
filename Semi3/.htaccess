@@ -29,7 +29,12 @@ Options +ExecCGI +FollowSymLinks
 #Require valid-user
 
 <ifModule mod_headers.c>
-	<FilesMatch "\.(ico|pdf|jpg|jpeg|png|gif|mp4|ogv|webm|wmv|xml|xsd|css)$">
+	<FilesMatch "\.(ico|pdf|jpg|jpeg|png|gif|mp4|ogv|webm|wmv|xml|xsd)$">
+		#One month
 		Header set Cache-Control "max-age=2592000, public"
+	</FilesMatch>
+	<FilesMatch "\.(css)$">
+		#One week
+		Header set Cache-Control "max-age=604800, public"
 	</FilesMatch>
 </ifModule>
