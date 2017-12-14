@@ -2,8 +2,6 @@
 <div id="new-comment">
     <div  data-bind="if: username !== ''">
         <textarea data-bind="value: commentText"></textarea><br>
-        <input type="hidden" class="recipe" value="<?php echo $recipe;?>">
-        <input type="hidden" id="username" value="<?php echo $_SESSION["username"];?>">
         <button class="button" data-bind="click: sendComment">
             Comment
         </button>
