@@ -47,6 +47,7 @@ class CommentHandler {
         $escapedString = $mysqli->real_escape_string($commentText);
         $specialCharacters1 = array("\'", '\"', '\\\\');
         $specialCharacters2 = array("'", '"', '\\');
+        $mysqli->close();
         return \str_replace($specialCharacters1, $specialCharacters2, $escapedString);
     }
     
