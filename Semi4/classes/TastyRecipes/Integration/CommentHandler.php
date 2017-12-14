@@ -54,62 +54,56 @@ class CommentHandler {
         require realpath('D:\HTMLprogram\ID1354\private\Secret.php');
 	$mysqli = new \mysqli('localhost',$databaseUsername,$databasePassword,'comments');
         if(!($statment = $mysqli->prepare("INSERT INTO " . $recipe . " (Username, Comment, TimeSubmitted) VALUES (?,?,?);"))) {
-            
-            echo "prepare failed: (" . $mysqli->errno . ") " . $mysqli->error . "\n" . '$recipe = ' . $recipe . "\n";
             return FALSE;
         }
         else {
             $statment->bind_param("sss", $username, $commentText, $time);
             if (!($statment->execute())) {
-                //echo "execute failed: (" . $mysqli->errno . ") " . $mysqli->error;
+		$statment->close();
+	        $mysqli->close();
                 return FALSE;
             } else {
-                //echo "Success!";
+		$statment->close();
+		$mysqli->close();
                 return TRUE; 
             }
         }
-        //$statment->close();
-	$mysqli->close();
      }
      
      private function deleteCommentPrivate($time, $recipe){
         require realpath('D:\HTMLprogram\ID1354\private\Secret.php');
 	$mysqli = new \mysqli('localhost',$databaseUsername,$databasePassword,'comments');
         if ($mysqli->connect_errno) {
-            //echo"<script>console.log('0')</script>";
             return FALSE;
         }
         if (!($statment = $mysqli->prepare("DELETE FROM $recipe WHERE TimeSubmitted =?;"))){
-            echo"<script>console.log('Prepare failed: (' . $mysqli->errno . ') ' . $mysqli->error')</script>";
+	    $statment->close();
+            $mysqli->close();
             return FALSE; 
-            //echo "Prepare failed: (" . $mysqli->errno . ") " . $mysqli->error;
         } else {
             $statment->bind_param("s", $time);
             if (!($statment->execute())) {
-                //echo"<script>console.log('2')</script>";
+		$statment->close();
+        	$mysqli->close();
                 return FALSE; 
-                //echo "execute failed: (" . $mysqli->errno . ") " . $mysqli->error;
             } else {
-                //echo"<script>console.log('3')</script>";
+		$statment->close();
+        	$mysqli->close();
                 return TRUE; 
-                //echo '<meta http-equiv="refresh" content="0">';
             }
         }
-        $statment->close();
-        $mysqli->close();
      }
      
     private function getCommentsPrivate($recipe, $newestTimesubmitted) {
         require realpath('D:\HTMLprogram\ID1354\private\Secret.php');
 	$mysqli = new \mysqli('localhost',$databaseUsername,$databasePassword,'comments');
         if ($mysqli->connect_errno) {
-            //echo"<script>console.log('0')</script>";
-            return NULL;
+        	return NULL;
         }
-        if (!($statment = $mysqli->prepare("SELECT * FROM $recipe WHERE TimeSubmitted > ?;"))){
-            //echo'<script>console.log("1")</script>';
-            echo "Prepare failed: (" . $mysqli->errno . ") " . $mysqli->error;
-            return NULL; 
+	if (!($statment = $mysqli->prepare("SELECT * FROM $recipe WHERE TimeSubmitted > ? ORDER BY TimeSubmitted DESC;"))){
+		$statment->close();
+         	$mysqli->close();
+            	return NULL; 
             
         } else {
             $statment->bind_param("i", $newestTimesubmitted);
@@ -119,13 +113,11 @@ class CommentHandler {
                 return NULL; 
                 
             } else {
-                //echo'<script>console.log("2")</script>';
                 $result = $statment->get_result();
+		$statment->close();
+                $mysqli->close();
                 return $result;
-                //return TRUE; 
-                //echo '<meta http-equiv="refresh" content="0">';
             }
         }
-        return $mysqli->query($sql);
     }
 }
