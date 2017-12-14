@@ -30,7 +30,7 @@
         </div>
     </div>
     <p data-bind="text: commentsMessage"></p><br>
-    <input type="hidden" class="recipe" value="<?php echo $recipe?>">
+    <input type="hidden" id="recipe" value="<?php echo $recipe?>">
     <input type="hidden" id="username" value="<?php echo $_SESSION["username"];?>">
     <button class="button" data-bind="click: readComments">
         Update comments
