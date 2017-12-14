@@ -25,7 +25,7 @@ $(document).ready(function () {
                         self.submitLoading(false);
                     },
                     success: function (data) {
-                        if (data === "Thanks for your comment, press the button below to see it.") {
+                        if (data === "Thanks for your comment, press the button below to see it below.") {
                             self.commentMessage (data);
                             setTimeout(function(){ self.commentMessage (""); }, 4000);
                         } else {
@@ -72,7 +72,6 @@ $(document).ready(function () {
                 success: function(jsonComments) {
                     var i;
                     for (i = jsonComments.length - 1; i >= 0; i--) {
-                        //alert(jsonComments.length - 1);
                         comment = jsonComments[i];
                         if (comment.TimeSubmitted > self.newestTimesubmitted) {
                             self.newestTimesubmitted = comment.TimeSubmitted;
@@ -80,6 +79,7 @@ $(document).ready(function () {
                         comment.Username = removeQuotes(comment.Username);
                         comment.Comment = removeQuotes(comment.Comment);
                         comment.iWroteThisComment = (comment.Username === self.commentToAdd.username);
+                        console.log (comment.Username + " " + self.commentToAdd.username);
                         self.comments.push(comment);
                     }
                     if (jsonComments.length === 0 && firstTimeInside !== true) {
