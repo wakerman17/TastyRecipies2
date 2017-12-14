@@ -10,5 +10,4 @@ $recipe = $_GET['recipe'];
 $newestTimesubmitted = $_GET['newestTimesubmitted'];
 $jsonData = $controller->exportComments($recipe, $newestTimesubmitted);
 SessionManager::storeController($controller);
-echo \json_encode($jsonData);
-return TASTY_RECIPES_VIEWS . "jsonView";
+include TASTY_RECIPES_VIEWS . 'jsonView.php';
