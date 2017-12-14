@@ -10,8 +10,8 @@
         <br>
         <strong data-bind="text: commentError"></strong>
         <p data-bind="text: commentMessage"></p>
-        <div id="bowlG" data-bind="visible: submitLoading">
-            <div id="bowl_ringG">
+        <div class="bowlG" data-bind="visible: submitLoading">
+            <div class="bowl_ringG">
                 <div class="ball_holderG">
                     <div class="ballG">
                     </div>
@@ -23,8 +23,8 @@
 </div>    
 
 <div id="all-comments">
-    <div id="bowlG" data-bind="visible: refreashLoading">
-        <div id="bowl_ringG">
+    <div class="bowlG" data-bind="visible: refreashLoading">
+        <div class="bowl_ringG">
             <div class="ball_holderG">
                 <div class="ballG">
                 </div>
