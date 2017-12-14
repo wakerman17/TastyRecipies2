@@ -109,7 +109,7 @@ $(document).ready(function () {
         return string.replace(/\"/g, "");
     }
     
-    var recipe = $(".recipe").val();
+    var recipe = $("#recipe").val();
     var currentUsername = $("#username").val();
     // Activates knockout.js
     var commentToAdd = new CommentToAdd(recipe, currentUsername);
