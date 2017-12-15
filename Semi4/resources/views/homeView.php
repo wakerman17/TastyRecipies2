@@ -19,7 +19,7 @@
         <nav>
             <ul>
                 <li class="navLink" id="active">Home</li>
-                <li><a class="navLink" href="newEmptyPHP.php">Register</a></li>
+                <li><a class="navLink" href="register.php">Register</a></li>
                 <li><a class="navLink" href="calendar.php">Calendar</a></li>
                 <li><a class="navLink" href="meatballs.php">Meatballs</a></li>
                 <li><a class="navLink" href="pancakes.php">Pancakes</a></li>
